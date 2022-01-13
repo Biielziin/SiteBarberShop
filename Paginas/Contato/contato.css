@@ -1,0 +1,146 @@
+/* RESET */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, label, legend, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* FIM RESET */
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+header{
+    background-color: black;
+    box-shadow: 2px 0px 0px #000000;
+    -webkit-box-shadow: 1px 5px 5px #000000;
+}
+
+main{
+    width: 940px;
+    margin: 0 auto;
+}
+
+
+
+.caixa{
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+}
+
+
+ 
+form{
+    margin: 40px 0;      
+}
+
+form label, form legend{
+  display: block;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.input-padrao {
+    display: block;
+    margin-bottom: 20px;
+    padding: 10px 25px;
+    width: 50%;
+
+}
+
+.checkbox-novidade {
+    margin: 20px 0;
+}
+
+
+
+.Enviar{
+    width: 40%;
+    padding: 15px 0;
+    background-color:darkorange;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    border: none;
+    border-radius: 5px;
+    transition: 1s all;
+    cursor: pointer;
+}
+
+.Enviar:hover{
+    background-color:red;
+    transform: scale(1.1);
+}
+
+
+table{
+    margin: 20px 0 40px;
+}
+
+thead{
+    background-color: gray;
+    color: white;
+    font-weight: bold;
+}
+
+table td{
+    border: 1px solid black;
+    padding: 8px 15px;
+}
+
+
+footer{
+    text-align: center;
+    background: url("../Imagens/bg.jpg");  
+}
+
+.logo4{
+    padding-top: 18px;
+}
+
+.copyright{
+  color: white;
+  font-size: 13px;
+  margin-top: 20px;
+  padding-bottom: 18px;
+}
+
